@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+#branchSelect {
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: 1px solid #1f4e79;
+    border-radius: 4px;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8rem;
+    color: #1f4e79;
+    border-bottom: 2px solid #1f4e79;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+/* Speaker Selection Styling */
+.speakers ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.speakers ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.speakers ul li select {
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f4e79;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Buttons and Forms */
+button, select {
+    font-family: inherit;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #1f4e79;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    #branchSelect {
+        width: 100%;
+    }
+}
